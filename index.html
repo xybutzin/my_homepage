@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Jane Doe | Scientist</title>
+  <meta name="description" content="Personal homepage of Dr. Jane Doe, scientist.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Dr. Jane Doe</h1>
+    <p class="tagline">Scientist &middot; Department of Science &middot; Example University</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-home" aria-controls="home" aria-selected="true">Home</button>
+    <button role="tab" id="tab-research" aria-controls="research" aria-selected="false">Research</button>
+    <button role="tab" id="tab-publications" aria-controls="publications" aria-selected="false">Publications</button>
+    <button role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false">Teaching</button>
+    <button role="tab" id="tab-contact" aria-controls="contact" aria-selected="false">Contact</button>
+  </nav>
+
+  <main>
+    <section id="home" role="tabpanel" aria-labelledby="tab-home">
+      <h2>Home</h2>
+      <div class="profile">
+        <div class="photo" aria-hidden="true">JD</div>
+        <p>
+          Hello, I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          I study placeholder phenomena using sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua.
+        </p>
+      </div>
+      <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <h3>News</h3>
+      <ul>
+        <li><strong>2026:</strong> Placeholder news item about a new grant.</li>
+        <li><strong>2025:</strong> Placeholder news item about a conference talk.</li>
+      </ul>
+    </section>
+
+    <section id="research" role="tabpanel" aria-labelledby="tab-research" hidden>
+      <h2>Research</h2>
+      <p>My work focuses on a few broad themes. Lorem ipsum dolor sit amet.</p>
+      <h3>Project One: Placeholder Title</h3>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Project Two: Placeholder Title</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      <h3>Project Three: Placeholder Title</h3>
+      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+    </section>
+
+    <section id="publications" role="tabpanel" aria-labelledby="tab-publications" hidden>
+      <h2>Publications</h2>
+      <ol class="pubs">
+        <li>
+          <strong>Placeholder Title of a Journal Article.</strong><br>
+          J. Doe, A. Smith, B. Lee. <em>Journal of Placeholders</em>, 12(3), 2026.
+        </li>
+        <li>
+          <strong>Another Placeholder Paper Title.</strong><br>
+          A. Smith, J. Doe. <em>Proceedings of the Example Conference</em>, 2025.
+        </li>
+        <li>
+          <strong>A Third Placeholder Paper Title.</strong><br>
+          J. Doe, C. Kim. <em>Annals of Examples</em>, 8(1), 2024.
+        </li>
+      </ol>
+    </section>
+
+    <section id="teaching" role="tabpanel" aria-labelledby="tab-teaching" hidden>
+      <h2>Teaching</h2>
+      <h3>Current courses</h3>
+      <ul>
+        <li><strong>SCI 101:</strong> Introduction to Placeholder Science (Fall)</li>
+        <li><strong>SCI 450:</strong> Advanced Topics in Examples (Spring)</li>
+      </ul>
+      <h3>Mentoring</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. I welcome inquiries from prospective students.</p>
+    </section>
+
+    <section id="contact" role="tabpanel" aria-labelledby="tab-contact" hidden>
+      <h2>Contact</h2>
+      <p>The best way to reach me is by email.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:jane.doe@example.edu">jane.doe@example.edu</a></li>
+        <li><strong>Office:</strong> Room 123, Science Building</li>
+        <li><strong>Address:</strong> 123 Example Street, Example City, ST 00000</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Jane Doe. Placeholder content.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
